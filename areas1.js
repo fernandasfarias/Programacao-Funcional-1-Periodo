@@ -30,4 +30,10 @@ const A2 = fareaeli(R1, R2)
   // Agora, como estamos aplicando uma função, passamos os ARGUMENTOS
 
 // Resultado final 
-console.log(fsoma(A1, A2))
+resultado = fsoma(A1, A2)
+
+// Outra forma de mostrar o resultado: Texto
+const textRet = `retângulo de lado ${L1} e ${L2}`
+const textEli = `elipse de raio ${R1} e ${R2}`
+const textSoma = `A soma da área do ${textRet} e da ${textEli} é igual a ${resultado}`
+console.log(textSoma)
