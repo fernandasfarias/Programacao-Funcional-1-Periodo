@@ -51,3 +51,13 @@ const produtosQueIniciamComLetraC = carrinho.filter((letra) => letra.nome[0]==='
 console.log(produtosQueIniciamComLetraC)
 const valorTotalProdutosLetraC = produtosQueIniciamComLetraC.reduce((cont, val) => cont+val.qtde*val.preco, 0)
 console.log(valorTotalProdutosLetraC)
+
+// f) calcular o valor médio gasto por tipo de produto com a compra realizada. 
+// Passo 1: Criar uma constante que guarde a lista com os registros dos produtos do tipo fragil e criar outra que
+// guarde os produtos não frageis 
+// Passo 2: Reduzir cada uma dessas constantes através do reduce, sendo que eu irei dividí-la pelo contador. 
+const produtosNaoFrageis = carrinho.filter((tipo) => tipo.fragil==false)
+console.log(produtosNaoFrageis)
+const valorMedioFragil = produtosFrageis.reduce((contador, x) => contador+(x.preco*x.qtde)/produtosFrageis.length, 0)
+const valorMedioNaoFragil = produtosNaoFrageis.reduce((contador, x) => contador+(x.preco*x.qtde)/produtosNaoFrageis.length, 0)
+console.log(`O valor médio gasto por produto não fragil foi de ${valorMedioNaoFragil.toFixed(2)}, e por produto frágil foi de ${valorMedioFragil.toFixed(2)}`)
