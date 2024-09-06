@@ -12,7 +12,7 @@ const carrinhoDolar = carrinho.map((x) => ({
     nome: x.nome,
     qtde: x.qtde,
     preco: (x.preco*5.5).toFixed(2),
-    fragil: x.fragil
+    fragil: x.fragil,
 }))
 console.log(carrinhoDolar)
 console.log(carrinho)
