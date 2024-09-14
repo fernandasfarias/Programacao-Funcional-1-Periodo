@@ -1,4 +1,0 @@
-# Programação Funcional - Primeiro Período de SI
-
-- **Lista 05**
-    1. Reconsidere o exemplo sobre as compras de produtos apresentado na aula sobre registros. Seu programa deve ser capaz de: (a) Mostrar o carrinho de compras com o preço dos produtos em outra moeda, aplicando-se alguma taxa de câmbio (ex. 5.5 vezes), (b) Calcular o valor total gasto com a compra, (c) Calcular o valor total gasto aplicando-se algum desconto, (d) Calcular o valor total gasto com os produtos frágeis, (e) Calcular o valor total gasto com produtos que se iniciam com uma determinada letra (ex. letra 'C'), (f) Calcular o valor médio gasto por tipo de produto com a compra realizada. Para resolver adequadamente os problemas descritos, seu programa deve fazer uso da notação mais compacta de representação e acesso a dados vista neste tópico e utilizar as três operações sobre coleções de dados estudadas: map, filter e reduce.
